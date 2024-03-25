@@ -1,0 +1,18 @@
+:root{
+    /* Primary color */
+    --moderate-blue-p: hsl(238, 40%, 52%);
+    --soft-red-p:hsl(358, 79%, 66%);
+    --light-grayish-blue-p:hsl(239, 57%, 85%);
+    --pale-red-p:hsl(357, 100%, 86%);
+    /* Neutral */
+    --dark-blue-n:hsl(212, 24%, 26%);
+    --grayish-blue-n:hsl(211, 10%, 45%);
+    --light-gray-n:hsl(223, 19%, 93%);
+    --very-light-gray-n:hsl(228, 33%, 97%);
+    --white-n:hsl(0, 0%, 100%);
+}
+
+.text{
+    color: var(--color-text);
+    font-family: Rubik;
+}
