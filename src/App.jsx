@@ -1,14 +1,14 @@
 import CssBaseline from '@mui/material/CssBaseline';
 import './App.css'
 
+import Layout from './Layout';
+
 function App() {
 
   return (
     <>
       <CssBaseline enableColorScheme/>
-      <h1 className='text'>
-        Hello world!!
-      </h1>
+      <Layout/>
     </>
   )
 }
