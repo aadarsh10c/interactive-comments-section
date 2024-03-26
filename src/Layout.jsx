@@ -1,11 +1,12 @@
 import Box from '@mui/material/Box';
+import Comment from './components/Comment';
 
 
 export default function Layout(){
     return(
         <>
             <Box className='container'>
-                <p>This is a box</p>
+                <Comment/>
             </Box>
         </>
     )

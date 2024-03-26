@@ -19,8 +19,8 @@
 
 .container{
     background-color: var(--very-light-gray-n);
-    
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
+    height: 100vh;
 }
