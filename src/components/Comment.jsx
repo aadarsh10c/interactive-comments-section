@@ -1,13 +1,11 @@
-import Box from '@mui/material/Box';
+import  Container  from '@mui/material/Container';
 
 export default function Comment(){
     return(
         <>
-          <Box>
-            <p>
-                This is a comment
-            </p>
-          </Box>  
+          <Container maxWidth={false} className='container' >
+            <p>This is the comment</p>
+          </Container>
         </>
     )
 }
