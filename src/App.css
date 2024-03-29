@@ -24,9 +24,11 @@
 
 .container{
     border: 2px solid red;
-    /* max-width: 50%; */
-    /* inline-size: min(360px , 50%); */
     max-inline-size: 50%;
     min-inline-size: 300px;
     height: 100%;
+}
+
+p{
+    border: 2px solid red;
 }
