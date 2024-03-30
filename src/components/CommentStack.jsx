@@ -1,7 +1,7 @@
 import  Container  from '@mui/material/Container';
 import Stack from '@mui/material/Stack';
 
-export default function Comment(){
+export default function CommentStack(){
     return(
         <>
           <Container maxWidth={false} className='container' >

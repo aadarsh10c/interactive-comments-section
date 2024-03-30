@@ -1,12 +1,12 @@
 import Box from '@mui/material/Box';
-import Comment from './components/Comment';
+import CommentStack from './components/CommentStack';
 
 
 export default function Layout(){
     return(
         <>
             <Box className='box'>
-                <Comment/>
+                <CommentStack/>
             </Box>
         </>
     )
