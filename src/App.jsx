@@ -1,5 +1,5 @@
 import CssBaseline from '@mui/material/CssBaseline';
-import './App.css'
+import './App.scss'
 
 import Layout from './Layout';
 
