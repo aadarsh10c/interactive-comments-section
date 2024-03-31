@@ -33,3 +33,10 @@
 p{
     border: 2px solid red;
 }
+
+.MuiCardHeader-content{
+    display: flex;
+    // flex-direction: row;
+    gap: clamp(15px, 5%, 40px);
+    align-items:center;
+}
